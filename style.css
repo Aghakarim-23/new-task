@@ -126,7 +126,7 @@ body {
   padding-right: 5px;
 }
 .card-right h4, p {
-  padding: 10px 10px;
+  margin: 5px 5px;
 }
 .card-right h4 {
   color: white;
@@ -158,5 +158,10 @@ body {
   .main-container {
     margin-bottom: 3rem;
     padding: 10px;
+  }
+  .card-right h4 {
+    color: white;
+    letter-spacing: normal;
+    font-size: 12px;
   }
 }
