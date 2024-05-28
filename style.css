@@ -98,6 +98,8 @@ body {
   width: 19rem;
   height: 7rem;
   display: flex;
+  justify-content: space-between;
+
   border: 1px solid transparent;
   border-radius: 10px;
   background-color: rgba(13, 11, 11, 0.646);
@@ -123,7 +125,7 @@ body {
 .card-left img {
   height: 100%;
   border-radius: 10px;
-  padding-right: 5px;
+  /* padding-right: 5px; */
 }
 .card-right h4, p {
   margin: 5px 5px;
@@ -163,6 +165,8 @@ body {
     color: white;
     letter-spacing: normal;
     font-size: 12px;
+    margin-top: 10px;
+
   }
   .card {
     /* justify-content: space-around; */
@@ -171,6 +175,9 @@ body {
     width: 100%;
   }
   .card-right h4, p{
-    margin-right: 105px;
+    margin-left: 20px;
+  }
+  .card-right{
+    padding: 20px 0;
   }
 }
