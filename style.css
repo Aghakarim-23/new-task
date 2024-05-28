@@ -166,5 +166,6 @@ body {
   }
   .card {
     justify-content: space-around;
+    margin-right: 20px;
   }
 }
