@@ -123,12 +123,10 @@ body {
 .card-left img {
   height: 100%;
   border-radius: 10px;
+  padding-right: 5px;
 }
-.card-right {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+.card-right h4, p {
+  padding: 10px 10px;
 }
 .card-right h4 {
   color: white;
