@@ -164,4 +164,7 @@ body {
     letter-spacing: normal;
     font-size: 12px;
   }
+  .card {
+    justify-content: space-around;
+  }
 }
