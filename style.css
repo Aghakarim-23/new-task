@@ -168,4 +168,7 @@ body {
     justify-content: space-around;
     margin-right: 20px;
   }
+  .card-right{
+    width: 100%;
+  }
 }
