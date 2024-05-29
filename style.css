@@ -98,6 +98,8 @@ body {
   width: 19rem;
   height: 7rem;
   display: flex;
+  justify-content: space-between;
+
   border: 1px solid transparent;
   border-radius: 10px;
   background-color: rgba(13, 11, 11, 0.646);
@@ -123,12 +125,10 @@ body {
 .card-left img {
   height: 100%;
   border-radius: 10px;
+  /* padding-right: 5px; */
 }
-.card-right {
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
+.card-right h4, p {
+  margin: 5px 5px;
 }
 .card-right h4 {
   color: white;
@@ -160,5 +160,25 @@ body {
   .main-container {
     margin-bottom: 3rem;
     padding: 10px;
+  }
+  .card-right h4 {
+    color: white;
+    letter-spacing: normal;
+    font-size: 12px;
+    margin-top: 10px;
+
+  }
+  .card {
+    /* justify-content: space-around; */
+    flex-direction: column;
+  }
+  .card-right{
+    /* width: 100%; */
+  }
+  .card-right h4, p{
+    margin-left: 20px;
+  }
+  .card-right{
+    padding: 20px 0;
   }
 }
